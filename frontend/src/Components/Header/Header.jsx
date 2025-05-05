@@ -310,7 +310,10 @@ const Header = () => {
             <Link to="/contact-us">Contact Us</Link>
           </li>
           <li onClick={toggleSidebar}>
-            <Link to="/all-products">Products</Link>
+            <Link to="/all-products">All Products</Link>
+          </li>
+          <li onClick={toggleSidebar}>
+            <Link to="/event">Events</Link>
           </li>
           <li>
             <a

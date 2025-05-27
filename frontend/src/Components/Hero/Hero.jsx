@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 // import bannerImage1 from "../../images/banner1.jpg";
 import "./hero.css";
 import Slider from "react-slick";
-import grocery from "../../images/grocery.png";
+import grocery from "../../images/grocery2.jpeg";
 import CountUp from "react-countup";
 
 import ProductsTabs from "../ProductsTabs/ProductsTabs";
@@ -325,17 +325,12 @@ const Hero = () => {
         <div className="container">
           <div className="row align-items-center">
             <div className="col-md-7">
-              <h4>Welcome To SW Healthcare</h4>
+              <h4>Vision</h4>
               <h2>
-                <b>SW Healthcare</b> is your one-stop shop for medical supplies,
-                including Stethoscopes
+                <b>At SW Health Care,</b> our vision is to revolutionize healthcare through innovative medical devices,
               </h2>
               <p>
-                The option to use our state-of-the-art laser engraving service.
-                With a wide range of products, competitive prices, and fast
-                delivery. Whether you're a healthcare professional or an
-                individual, SW is the place to find the medical supplies you
-                need.
+                 exceptional quality, and unwavering commitment to patient well-being, empowering healthcare professionals to deliver outstanding care and improving lives globally."
               </p>
               <Link className="button_" to="/all-products">
                 Check More Products <i class="bi bi-bag"></i>
